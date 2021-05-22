@@ -1,7 +1,6 @@
 from os import system, name
 import random
 people = ["kaden", "augustus", "jeremy", "justin", "lilu", "connor", "diana"]
-# import only system from os
 
 
 def clear():
