@@ -15,11 +15,11 @@ def clear():
 
 
 while True:
-    chosen = random.sample(people, 2)
+    [asker, askee] = random.sample(people, 2)
 
-    print(chosen[0], "asks", chosen[1])
+    print(asker, "asks", askee)
     input("check for revealed?")
-    print(("give us the question " + chosen[0]) if random.random() <= 6 /
+    print(("give us the question " + asker) if random.random() <= 6 /
           10 else "your secrets are forever hidden.....")
     input("Next round?")
     clear()
