@@ -12,7 +12,6 @@ def clear():
 
 while True:
     [asker, askee] = random.sample(people, 2)
-
     print(asker, "asks", askee)
     input("check for revealed?")
     print(("give us the question " + asker) if random.random() <= 6 /
