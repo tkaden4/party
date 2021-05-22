@@ -5,11 +5,8 @@ people = ["kaden", "augustus", "jeremy", "justin", "lilu", "connor", "diana"]
 
 
 def clear():
-    # for windows
     if name == 'nt':
         _ = system('cls')
-
-    # for mac and linux(here, os.name is 'posix')
     else:
         _ = system('clear')
 
