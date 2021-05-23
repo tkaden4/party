@@ -1,8 +1,11 @@
-* {
+
+body {
+  background-color: ghostwhite;
   font-family: 'Newsreader', serif;
   color: #c9a0dcff;
 }
 
-body {
-  background-color: ghostwhite;
+.rw-multiselect-tag, .rw-multiselect-tag-label, .rw-multiselect-tag-btn {
+  background-color: #c9a0dcff;
+  color: ghostwhite; 
 }
